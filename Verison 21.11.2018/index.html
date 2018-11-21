@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Home</title>
+<link rel="icon" href="Pics/tab.ico">
+<!--This webpage is about HouzNeed Electrical 
+        Author's name: Thivaker,Nicholas and Eswaran
+        Date Created:16/11/2018
+-->
+
+<meta charset="UTF-8">
+<link href="index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+ <body style ="background: url('Pics/bk2.jpg'); 
+background-size: 100% 100%;">
+
+<body>
+
+
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><i class="fa fa-home" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-product-hunt" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;Products  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="Events\Events.html"><i class="fa fa-send-o" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;Events</a>
+  <a href="ShoppingCart\ShoppingCart.html"><i class="fa fa-shopping-cart" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;Shopping Cart</a>
+  <a href="FAQ\FAQ.html"><i class="fa fa-question-circle-o" style="font-size:20px" ></i>&nbsp;&nbsp;&nbsp;F.A.Q</a>
+  <a href="AboutUS\AboutUS.html" ><i class="fa fa-heart" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;About US</a>
+
+<div class="test2">
+ <a href="Account\Account.html" ><i class="fa fa-user-circle-o" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;Account</a>
+</div>
+
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+
+<center><img src="Pics/tbk4.png" alt="Logo Missing" height="700" width="1280"></center>
+
+
+<h2 style="padding-left:30px" >Introduction</h2>
+<p><blockquote>HouzNeed Electrical offers the widest range of products in categories from consumer electronics to household goods, toys, home appliances and hardware tools. Focused on delivering customers with an easy, secure and fast online shopping experience, which offers multiple payment methods including cash-on-delivery, comprehensive customer care and hassle-free returns through its own first and last mile delivery arm supported by approximately 100 logistics partners. Launched in 2018, our company is currently one of the best online shopping and selling destination in Southeast Asia.</blockquote></p>   
+
+<h2 style="padding-left:30px">Our Vision</h2>
+<p><blockquote>HouzNeed Electrical's vision is to continually develop our platform and become the world's e-commerce destination of choice. We believe in the transformative power of technology and we're working on changing the world for the better by providing a platform to connect buyers and sellers hassle-lessly in one community.</blockquote></p>
+<br>
+
+<!-- Slider-->
+
+<div id="slider">
+  <a href="javascript:moveLeft();" class="control_next">></a>
+  <a href="javascript:moveRight();" class="control_prev"><</a>
+  <ul>
+    <li><img src="Pics/s1.jpg"></li>
+    <li><img src="Pics/s2.jpg"></li>
+    <li><img src="Pics/s3.jpg"></li>
+  </ul>  
+</div>
+
+
+
+<!--Category-->
+<h2 style="text-align: center">Currently Available Products in Category</h2>
+<div class="test">
+<div class="zoom"></div>
+<div class="zoom1"></div>
+<div class="zoom2"></div>
+<br><br><br>
+<div class="zoom3"></div>
+<div class="zoom4"></div>
+<div class="zoom5"></div>
+</div>
+
+
+<h3 style="text-align: center">Please choose any tiles above to view the products</h3>
+<!--Footer-->
+
+
+<!-- FOOTER START -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Navigation</h1>
+    <ul>
+      <li>Home</li>
+      <li>Products</li>
+      <li>Events</li>
+      <li>F.A.Q</li>
+      <li>About Us</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Products</h1>
+    <ul>
+      <li>Category1</li>
+      <li>Category2</li>
+      <li>Category3</li>
+      <li>Category4</li>
+      <li>Category5</li>
+      <li>Category6</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Shopping</h1>
+    <ul>
+      <li>View Cart</li>
+      <li>View Product</li>
+      <li>Services</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Account</h1>
+    <ul>
+      <li>Login</li>
+      <li>Sign Up</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Support</h1>
+    <ul>
+      <li>Contact us</li>
+      <li>Web chat</li>
+      <li>Open ticket</li>
+    </ul>
+  </div>
+
+
+
+<div class="col social">
+<h2>This Website is only for Asignment purpose</h2>
+    <ul>
+      <li><img src="Pics/logo2.png"></li>
+    </ul>
+  </div>
+
+
+
+<div class="clearfix"></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Nav Bar Resize Function -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<!--Slider function-->
+
+<script>
+  
+
+jQuery(document).ready(function ($) {
+
+
+   var interval;
+    interval = setInterval(function () {
+        moveRight();
+          }, 3000);
+
+      $('#slider').mouseover(function(){
+          clearInterval(interval);
+            });
+
+      $('#slider').mouseleave(function(){
+            interval = setInterval(function () {
+                moveRight();
+                    }, 3000);
+});
+
+  var slideCount = $('#slider ul li').length;
+  var slideWidth = $('#slider ul li').width();
+  var slideHeight = $('#slider ul li').height();
+  var sliderUlWidth = slideCount * slideWidth;
+  
+  $('#slider').css({ width: slideWidth, height: slideHeight });
+  
+  $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+  
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 1000, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 1000, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});    
+
+</script>
+
+
+
+<!-- Link function for Category Tile  -->
+<script >
+$('.zoom').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Link function for Category Tile 1 -->
+<script >
+$('.zoom1').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Link function for Category Tile 2 -->
+<script >
+$('.zoom2').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Link function for Category Tile 3 -->
+<script >
+$('.zoom3').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Link function for Category Tile 4 -->
+<script >
+$('.zoom4').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Link function for Category Tile 5 -->
+<script >
+$('.zoom5').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+
+<!-- Bonus Features
+<script>
+$('#slider ul li').on('click', function() {
+    location.href = 'http://www.google.com' });
+</script>
+-->
+
+
+
+
